@@ -132,3 +132,11 @@ Each endpoint answer
 
 ## TESTING
 
+For testing
+
+<code>
+
+    python manage.py test tests/
+
+</code>
+
