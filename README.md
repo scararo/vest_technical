@@ -41,6 +41,9 @@ You should start with this point before starting the server
 
 ## how to start the server 
 
+You start this project in port 8000, so requests should be to
+http://127.0.0.1:8000
+
 <code>
 
     > (venv) python manage.py runserver
