@@ -14,6 +14,11 @@ environment
     > source ./venv/bin/activate
 
     > pip install -r requirements
+
+    > (venv) python manage.py makemigrations
+
+    > (venv) python manage.py migrate
+
 </code>
 
 
@@ -38,8 +43,6 @@ You should start with this point before starting the server
 
 <code>
 
-    > (venv) python manage.py makemigrations
-    > (venv) python manage.py migrate
     > (venv) python manage.py runserver
 
 </code>
